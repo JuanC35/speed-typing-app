@@ -1,0 +1,21 @@
+.avatar {
+  margin: 20px;
+  border: 5px solid rgb(25, 118, 210);
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+}
+
+.label {
+  width: 70%;
+  position: relative;
+  text-align: left;
+}
+
+.value {
+  width: 30%;
+  position: relative;
+  text-align: right;
+}

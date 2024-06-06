@@ -1,0 +1,16 @@
+.stats {
+  width: 100%;
+  display: flex;
+}
+
+.label {
+  width: 70%;
+  position: relative;
+  text-align: left;
+}
+
+.value {
+  width: 30%;
+  position: relative;
+  text-align: right;
+}

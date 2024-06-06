@@ -1,0 +1,52 @@
+.enter {
+  animation: enterAnimation 0.5s forwards;
+}
+
+.exit {
+  animation: exitAnimation 0.5s forwards;
+}
+
+@keyframes enterAnimation {
+  from {
+    top: 40px;
+  }
+  to {
+    top: -40px;
+  }
+}
+
+@keyframes exitAnimation {
+  from {
+    top: -40px;
+  }
+  to {
+    top: 40px;
+  }
+}
+/* 
+.enter {
+  animation: enterAnimation 0.5s forwards;
+}
+
+.exit {
+  animation: exitAnimation 0.5s forwards;
+}
+
+@keyframes enterAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes exitAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+} */
+

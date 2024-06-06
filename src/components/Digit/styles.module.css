@@ -1,0 +1,56 @@
+.digit {
+  position: relative;
+}
+
+.enter {
+  animation: enterAnimation 0.4s forwards;
+}
+
+.exit {
+  animation: exitAnimation 0.4s forwards;
+}
+
+@keyframes enterAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes exitAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.enter1 {
+  animation: enterAnimation1 0.4s forwards;
+}
+
+.exit1 {
+  animation: exitAnimation1 0.4s forwards;
+}
+
+@keyframes enterAnimation1 {
+  from {
+    top: 60px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes exitAnimation1 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -60px;
+  }
+}
